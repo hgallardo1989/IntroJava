@@ -7,6 +7,7 @@ public class Circulo {
 	public int y;
 	public static double pi = 3.14;
 	
+	//getters y setters
 	public String getColor() {
 		return color;
 	}
@@ -25,7 +26,15 @@ public class Circulo {
 	public void setY(int y) {
 		this.y = y;
 	}
+	//getters y setters para variables de clases son metodos estaticos
+	public static double getPi() {
+		return pi;
+	}
+	public static void setPi(double pi) {
+		Circulo.pi = pi;
+	}
 	
+	//metodo main para probar la clase
 	public static void main(String[] args) {
 		Circulo c = new Circulo();
 		c.setColor("rojo");
