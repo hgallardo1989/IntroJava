@@ -5,6 +5,12 @@ public class Circulo {
 	public String color;
 	public int x;
 	public int y;
+	
+	/**
+	 * La variable pi, esta declarada como una variable de clase (es una variable que no
+	 * se setea por cada instancia de la clase (objeto), sino que es global para todos los 
+	 * objetos de la clase
+	 */
 	public static double pi = 3.14;
 	
 	//getters y setters
