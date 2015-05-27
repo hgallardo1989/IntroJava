@@ -14,6 +14,9 @@ public class Main {
 		//Figura figu = new Figura();
 		
 		Figura figu = new Cuadrado();
+		int i = 9999;
 		
+		
+		System.out.println("Entero: " + i);
 	}
 }
