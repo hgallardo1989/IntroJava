@@ -25,13 +25,22 @@ public class CuentaAhorro extends Cuenta {
 		
 	}
 
+	/**
+	 * 
+	 * @param cliente es el cliente dueño de la cuenta
+	 * @param nroCuenta es el numero asignado por informatica
+	 * @param saldo es el deposito inicial que realiza el cliente
+	 * @param tasaInteres es el porcetaje a ser cobrado por el prestamo
+	 */
 	CuentaAhorro(Cliente cliente, Integer nroCuenta, Integer saldo, float tasaInteres){
 		this.setCliente(cliente);
 		try {
 			this.setNroCuenta(nroCuenta);
 		} catch (Exception e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	
 		this.setSaldo(saldo);
 		this.setTasaInteres(tasaInteres);
 		
