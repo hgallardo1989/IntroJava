@@ -39,7 +39,7 @@ public abstract class Cuenta {
 	}
 
 	public void setNroCuenta(Integer nroCuenta) throws Exception {
-		if (this.getNroCuenta().toString().length() == 9) {
+		if (nroCuenta.toString().length() == 9) {
 			this.nroCuenta = nroCuenta;
 		} else {
 			throw new Exception("Numero de cuenta debe tener 9 digitos");

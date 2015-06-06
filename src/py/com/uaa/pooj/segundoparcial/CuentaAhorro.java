@@ -20,7 +20,7 @@ public class CuentaAhorro extends Cuenta {
 	public String acreditar(Integer importe) {
 		this.setSaldo(this.getSaldo()+importe);
 		String mensaje = new String();
-		mensaje = "Nuevo saldo" + this.getSaldo();
+		mensaje = "Nuevo saldo: " + this.getSaldo();
 		return mensaje;
 		
 	}
@@ -30,13 +30,13 @@ public class CuentaAhorro extends Cuenta {
 		try {
 			this.setNroCuenta(nroCuenta);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		this.setSaldo(saldo);
 		this.setTasaInteres(tasaInteres);
 		
 	}
+	
 	
 	//getters y setters
 	public float getTasaInteres() {
