@@ -5,7 +5,7 @@ package py.com.uaa.pooj.ejerciciogestionempleados;
  *
  * @author gsoria
  */
-public class PruebaGestionEmpleado {
+public class Main {
 
 
     public static void main(String[] args) {
